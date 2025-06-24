@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <title>TODO LIST</title>
+</head>
+<body>
+    <body class="bg-gradient-to-br from-sky-200 to-blue-400 min-h-screen flex items-center justify-center p-4"></body>
+
+    <div class="w-full max-w-xl bg-white/90 backdrop-blur-md p-6 rounded-2xl shadow-xl">
+      <h1 class="text-3xl md:text-5xl font-bold text-center text-blue-800 mb-6">Todo List</h1>
+
+      <form class="mb-6">
+        <div class="flex flex-col sm:flex-row gap-3">
+          <input
+            id="todo-input"
+            type="text"
+            placeholder="MAKE YOUR LIST"
+            class="flex-1 p-3 rounded-lg border border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400 text-left"
+          />
+          <button
+            type="submit"
+            class="px-5 py-3 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition"
+            id="add-todo"
+          >
+            ADD
+          </button>
+        </div>
+      </form>
+
+      <div class="flex justify-end mb-4">
+        <button
+          class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition"
+          id="clear"
+        >
+          CLEAR
+        </button>
+      </div>
+
+      <ul class="space-y-3" id="todos">
+        <li class="flex flex-col sm:flex-row justify-between items-start sm:items-center bg-white border border-blue-200 px-4 py-3 rounded-xl shadow-sm">
+          <span class="text-gray-700">Todo Name</span>
+          <button class="text-red-500 hover:underline mt-2 sm:mt-0">DELETE</button>
+        </li>
+      </ul>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+ <!-- const title = document.querySelector("#title");
+//           title.style.color = "red"     -->
