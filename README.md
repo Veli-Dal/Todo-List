@@ -14,11 +14,11 @@ A simple and clean **Todo List** web application where users can add, complete, 
 
 ### Main Interface
 
-![Main Screen](screenshots/TODO1.png)
+![Main Screen](TODO1.png)
 
 ### Task Added
 
-![Task Added](screenshots/TODO2.png)
+![Task Added](TODO2.png)
 
 ---
 
