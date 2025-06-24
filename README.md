@@ -6,7 +6,7 @@ A simple and clean **Todo List** web application where users can add, and delete
 
 ## 🔗 Live Demo
 
-👉 [Click here to see the live app](https://dalveli.github.io/Todo-List/)
+👉 [Click here to see the live app](https://Veli-Dal.github.io/Todo-List/)
 
 ---
 
@@ -43,6 +43,6 @@ A simple and clean **Todo List** web application where users can add, and delete
 To run this project locally:
 
 ```bash
-git clone https://github.com/dalveli/Todo-List.git
+git clone https://github.com/Veli-Dal/Todo-List.git
 cd Todo-List
 open index.html
