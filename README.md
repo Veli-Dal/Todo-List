@@ -1,6 +1,6 @@
 # 📝 Todo List Application
 
-A simple and clean **Todo List** web application where users can add, complete, and delete their daily tasks. Designed with usability in mind.
+A simple and clean **Todo List** web application where users can add, and delete their daily tasks. Designed with usability in mind.
 
 ---
 
@@ -26,7 +26,6 @@ A simple and clean **Todo List** web application where users can add, complete, 
 
 - ✅ Add new tasks
 - 🗑️ Delete tasks
-- ✔️ Mark tasks as completed
 - 📱 Responsive design
 
 ---
