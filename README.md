@@ -33,7 +33,7 @@ A simple and clean **Todo List** web application where users can add, and delete
 ## 💻 Technologies Used
 
 - HTML5
-- CSS3
+- TailwindCss
 - JavaScript (Vanilla)
 
 ---
